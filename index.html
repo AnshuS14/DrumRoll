@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="shortcut icon" type="image/png" href="imgSrc/music-icon.png"/>
+        <script src="ScriptFiles/index.js"></script>
+        <title>Drum Roll Demo</title>
+    </head>
+   
+    <body background= "imgSrc/background.jpg" class="backgroundImg">
+        <div class="keys">
+            <div data-key = "65" class="key">
+                <kbd>A</kbd>
+                <span>Clap</span>
+            </div>
+            <div data-key = "83" class="key">
+                <kbd>S</kbd>
+                <span>HiHat</span>
+            </div>
+            <div data-key = "68" class="key">
+                <kbd>D</kbd>
+                <span>Kick</span>
+            </div>
+            <div data-key = "70" class="key">
+                <kbd>F</kbd>
+                <span>OpenHiHat</span>
+            </div>
+            <div data-key = "71" class="key">
+                <kbd>G</kbd>
+                <span>Ride</span>
+            </div>
+            <div data-key = "72" class="key">
+                <kbd>H</kbd>
+                <span>Snare</span>
+            </div>
+            <div data-key = "74" class="key">
+                <kbd>J</kbd>
+                <span>Timble</span>
+            </div>
+            <div data-key = "75" class="key">
+                <kbd>K</kbd>
+                <span>Tom</span>
+            </div>
+            <div data-key = "76" class="key">
+                <kbd>L</kbd>
+                <span>Boom</span>
+            </div>
+        </div>
+        <!-- use keycode.info to know the key code -->
+        <audio data-key="65" src="audio/Drum-Clap.wav"></audio>
+        <audio data-key="83" src="audio/Drum-Hi-Hat-1.wav"></audio>
+        <audio data-key="68" src="audio/drum-kick.wav"></audio>
+        <audio data-key="70" src="audio/Drum-Open-Hi-Hat.wav"></audio>
+        <audio data-key="71" src="audio/Drum-Ride.wav"></audio>
+        <audio data-key="72" src="audio/Drum-Snare.wav"></audio>
+        <audio data-key="74" src="audio/Drum-Timbale.wav"></audio>
+        <audio data-key="75" src="audio/Drum-Tom.wav"></audio>
+        <audio data-key="76" src="audio/Drum-Boom.wav"></audio>
+    </body>
+</html>
